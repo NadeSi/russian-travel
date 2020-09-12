@@ -1,0 +1,21 @@
+.header__lang-link{
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 1.17;
+
+    text-align: right;
+
+    margin-left: 18px;
+    color: var(--text-white-color);
+    text-decoration-line: none;
+}
+
+@media all and (max-width: 425px) {
+    .header__lang-link{
+        font-size: 18px;
+        line-height: 20px;
+    }
+}
+

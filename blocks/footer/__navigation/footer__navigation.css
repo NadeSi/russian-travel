@@ -1,0 +1,12 @@
+.footer__navigation{
+    display: grid;
+    grid-auto-flow: column;
+    gap: 18px;
+}
+
+@media all and (max-width: 425px) {
+    .footer__navigation{
+        grid-auto-flow: row;
+        gap: 32px;
+    }
+}

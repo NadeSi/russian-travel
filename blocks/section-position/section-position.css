@@ -1,0 +1,21 @@
+.section-position{
+    margin: 92px 148px 0;
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+    .section-position{
+        margin: 92px 48px 0;
+    }
+}
+
+@media all and (min-width: 425px) and (max-width: 768px) {
+    .section-position{
+        margin: 68px 24px 0;
+    }
+}
+
+@media all and (max-width: 425px) {
+    .section-position{
+        margin: 64px 16px 0;
+    }
+}

@@ -1,0 +1,13 @@
+.place{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, min-content);
+    grid-gap: 2em;
+    justify-content: space-between;
+}
+
+@media all and (max-width: 425px) {
+    .place{
+        grid-template-columns: 100%;
+    }
+}
