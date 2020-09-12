@@ -1,10 +1,8 @@
-/*
-* {
-  outline-width: 1px;
-  outline-style: solid;
-  outline-color: red;
-}
-*/
+/** {*/
+/*  outline-width: 1px;*/
+/*  outline-style: solid;*/
+/*  outline-color: red;*/
+/*}*/
 
 .page{
     /*фон*/
@@ -17,9 +15,19 @@
     background: var(--background-black-color);
     color: var(--text-white-color);
 
-    font-family: 'Inter', sans-serif;
+    font-family: Inter, Helvetica, sans-serif;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
 
+    position: relative;
     width: 100%;
+    min-width: 320px;
+
+    padding: 28px 0 24px;
+}
+
+@media all and (max-width: 425px) {
+    .page{
+        padding-top: 16px;
+    }
 }

@@ -1,5 +1,18 @@
 .places{
     display: grid;
-    grid-gap: 3em;
+    grid-gap: 80px;
     justify-content: space-evenly;
+    margin: auto;
+}
+
+@media all and (max-width: 768px) {
+    .places{
+        grid-gap: 72px;
+    }
+}
+
+@media all and (max-width: 563px) {
+    .places{
+        grid-gap: 48px;
+    }
 }

@@ -1,9 +1,4 @@
 .lead{
     margin: auto;
-}
-
-@media all and (max-width: 768px) {
-    .lead{
-        width: 100%;
-    }
+    padding-top: 0;
 }
