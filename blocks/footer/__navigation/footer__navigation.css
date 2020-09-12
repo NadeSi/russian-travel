@@ -1,6 +1,7 @@
 .footer__navigation{
     display: grid;
     grid-auto-flow: column;
+    align-content: center;
     gap: 18px;
 }
 

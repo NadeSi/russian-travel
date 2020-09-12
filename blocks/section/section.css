@@ -1,0 +1,16 @@
+.section{
+    max-width: 1184px;
+    padding-top: 92px;
+}
+
+@media all and (max-width: 768px) {
+    .section {
+        padding-top: 88px;
+    }
+}
+
+@media all and (max-width: 425px) {
+    .section {
+        padding-top: 64px;
+    }
+}
