@@ -2,9 +2,3 @@
     width: 100%;
 }
 
-@media all and (max-width: 563px) {
-    .place__image{
-        width: 100%;
-    }
-}
-

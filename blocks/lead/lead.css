@@ -1,4 +1,14 @@
 .lead{
     margin: auto;
     padding-top: 0;
+
+    padding-left: 48px;
+    padding-right: 48px;
+}
+
+@media all and (max-width: 984px) {
+    .lead{
+        padding-left: 0;
+        padding-right: 0;
+    }
 }
