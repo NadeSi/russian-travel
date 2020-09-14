@@ -1,10 +1,9 @@
 .cover__content{
     z-index: 10;
     display: grid;
+    align-content: center;
+    justify-content: center;
     grid-row-gap: 32px;
-    width: fit-content;
-    height: fit-content;
-    margin: auto;
     text-decoration: none;
 }
 

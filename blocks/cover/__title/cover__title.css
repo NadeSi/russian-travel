@@ -15,11 +15,6 @@
 @media all and (max-width: 425px) {
     .cover__title{
         font-size: 32px;
-    }
-}
-
-@media all and (min-width: 768px) and (max-width: 1024px) {
-    .cover__title{
-        font-size: 72px;
+        max-width: 288px;
     }
 }
